@@ -10,7 +10,7 @@ package com.e.calculator1;
 
         import java.text.DecimalFormat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText ettxt;
     private TextView tvoutput;
@@ -200,6 +200,11 @@ public class MainActivity extends AppCompatActivity {
             }
             catch (Exception e){}
         }
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }
 
